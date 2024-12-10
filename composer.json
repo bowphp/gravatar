@@ -20,12 +20,18 @@
     },
     "require-dev": {
         "php": ">=7.4",
+        "squizlabs/php_codesniffer": "3.*",
         "bowphp/framework": "^5"
     },
     "autoload": {
         "psr-4": {
             "Bow\\Gravatar\\": "src/"
         }
+    },
+    "scripts": {
+        "phpcbf": "phpcbf --standard=psr12 --severity=4 --tab-width=4 src",
+        "phpcs": "phpcs --standard=psr12 --severity=4 --tab-width=4 src",
+        "test": "phpunit --configuration phpunit.dist.xml"
     },
     "minimum-stability": "stable"
 }

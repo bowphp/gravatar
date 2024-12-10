@@ -1,5 +1,7 @@
-<?php 
+<?php
 
 namespace Bow\Gravatar;
 
-class InvalidEmailException extends \Exception {}
+class InvalidEmailException extends \Exception
+{
+}

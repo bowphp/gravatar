@@ -59,7 +59,7 @@ class Gravatar
      */
     public function fallback(string $fallback)
     {
-        // Gravatar changed mm to mp. 
+        // Gravatar changed mm to mp.
         // This way we make sure everything keeps working
         if ($fallback === 'mm') {
             $fallback = 'mp';
@@ -110,7 +110,7 @@ class Gravatar
         $this->checkEmail($email);
 
         $this->setConfig($config);
-    
+
         $this->email = $email;
 
         return $this->buildUrl();
