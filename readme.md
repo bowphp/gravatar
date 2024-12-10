@@ -1,4 +1,4 @@
-# Gravatar for Bow Framework 5 - 10
+# Gravatar for Bow Framework
 
 [![Total Downloads](https://poser.pugx.org/bowphp/gravatar/d/total.svg)](https://packagist.org/packages/bowphp/gravatar)
 [![Latest Stable Version](https://poser.pugx.org/bowphp/gravatar/v/stable.svg)](https://packagist.org/packages/bowphp/gravatar)
