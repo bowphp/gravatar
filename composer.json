@@ -1,0 +1,31 @@
+{
+    "name": "bowphp/gravatar",
+    "description": "A Bow Framework Gravatar package for retrieving gravatar image URLs or checking the existance of an image.",
+    "keywords": [
+        "bowphp",
+        "gravatar",
+        "avatar"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franck",
+            "email": "dakiafranck@gmail.com",
+            "homepage": "https://papac.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "bowphp/framework": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bow\\Gravatar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
